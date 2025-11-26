@@ -25,14 +25,14 @@ export function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+    <nav className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-backdrop-filter:bg-white/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-12">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center">
+          <div className="h-10 w-10 rounded-lg bg-linear-to-br from-blue-500 to-blue-700 flex items-center justify-center">
             <span className="text-white font-bold text-lg">PF</span>
           </div>
-          <span className="font-bold text-xl text-gray-900">PharmaFirst</span>
+          <span className="font-bold text-xl text-gray-900">Inovita Pharma</span>
         </Link>
 
         {/* Desktop Navigation */}

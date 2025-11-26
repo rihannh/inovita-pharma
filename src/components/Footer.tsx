@@ -24,10 +24,10 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <div className="mb-4 flex items-center space-x-2">
-              <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center">
+              <div className="h-10 w-10 rounded-lg bg-linear-to-br from-blue-500 to-blue-700 flex items-center justify-center">
                 <span className="text-white font-bold text-lg">PF</span>
               </div>
-              <span className="font-bold text-xl text-white">PharmaFirst</span>
+              <span className="font-bold text-xl text-white">Inovita Pharma</span>
             </div>
             <p className="mb-4 text-sm">
               Perusahaan farmasi terpercaya dengan komitmen terhadap kualitas,
@@ -61,7 +61,7 @@ export function Footer() {
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <MapPin className="mt-0.5 h-5 w-5 flex-shrink-0" />
+                <MapPin className="mt-0.5 h-5 w-5 shrink-0" />
                 <span className="text-sm">
                   Jl. Industri Raya No. 123
                   <br />
@@ -71,16 +71,16 @@ export function Footer() {
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Mail className="h-5 w-5 flex-shrink-0" />
+                <Mail className="h-5 w-5 shrink-0" />
                 <a
                   href="mailto:info@pharmafirst.com"
                   className="text-sm hover:text-white transition-colors"
                 >
-                  info@pharmafirst.com
+                  info@inovitapharma.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="h-5 w-5 flex-shrink-0" />
+                <Phone className="h-5 w-5 shrink-0" />
                 <a
                   href="tel:+62211234567"
                   className="text-sm hover:text-white transition-colors"
@@ -117,7 +117,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-8 border-t border-gray-800 pt-8 text-center text-sm">
           <p>
-            © {new Date().getFullYear()} PharmaFirst. Hak Cipta Dilindungi.
+            © {new Date().getFullYear()} Inovita Pharma. Hak Cipta Dilindungi.
           </p>
         </div>
       </div>
