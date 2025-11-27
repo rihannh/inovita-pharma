@@ -22,11 +22,11 @@ export function VisionMission() {
         <div className="mx-auto max-w-6xl">
           <div className="grid gap-8 md:grid-cols-2">
             {/* Vision */}
-            <Card className="bg-white">
+            <Card className="bg-white max-h-fit md:max-h-full">
               <CardHeader>
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-100">
-                  <Target className="h-6 w-6 text-blue-600" />
-                </div>
+                <span className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-100">
+                  <Target className="h-6 w-6 text-blue-600 " />
+                </span>
                 <CardTitle className="text-2xl">Visi</CardTitle>
               </CardHeader>
               <CardContent>
