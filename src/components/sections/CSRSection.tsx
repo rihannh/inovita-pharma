@@ -38,7 +38,7 @@ export function CSRSection() {
     <section className='py-20 bg-white'>
       <div className='container mx-auto px-4 md:px-12'>
         <div className='mb-12 text-center'>
-          <h2 className='mb-4 text-3xl font-bold text-gray-900 md:text-4xl'>
+          <h2 className='mb-4 text-3xl font-bold text-blue-600 md:text-4xl'>
             Kegiatan Kemasyarakatan
           </h2>
           <p className='mx-auto max-w-2xl text-lg text-gray-600'>

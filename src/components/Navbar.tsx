@@ -95,7 +95,7 @@ export function Navbar() {
                 <SheetClose key={item.name} asChild>
                   <Link
                     href={item.href}
-                    className='rounded-lg px-3 py-3 text-base font-medium text-gray-700 transition-colors hover:bg-blue-50 hover:text-blue-600'
+                    className='rounded-lg px-3 py-3 text-base font-bold text-gray-700 transition-colors hover:bg-blue-50 hover:text-blue-600'
                   >
                     {item.name}
                   </Link>

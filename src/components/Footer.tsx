@@ -26,7 +26,7 @@ const socialLinks = [
 
 export function Footer() {
   return (
-    <footer id='kontak' className='bg-gray-900 text-gray-300'>
+    <footer id='kontak' className='bg-blue-900 text-gray-300'>
       <div className='container mx-auto px-4 md:px-12 py-12'>
         <div className='grid gap-8 md:grid-cols-2 lg:grid-cols-4'>
           {/* Company Info */}
